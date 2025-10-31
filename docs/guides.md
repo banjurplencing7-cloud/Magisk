@@ -1,4 +1,5 @@
-# Developer Guides
+# Developer Guides root![IMG-20251030-WA0000](https://github.com/user-attachments/assets/6146f213-8ced-4662-92f2-48c8a7ffc300)
+
 
 ## BusyBox
 
@@ -285,7 +286,7 @@ Starting from Android 11, the `/sbin` folder may no longer exists, and in that s
 Here is an example of how to setup `overlay.d` with a custom `*.rc` script:
 
 ```
-ramdisk
+ramdisk oppo ramdisk
 │
 ├── overlay.d
 │   ├── sbin
